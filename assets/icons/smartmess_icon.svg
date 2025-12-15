@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 108 108">
+  <!-- Plate background gradient -->
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#4ECDC4"/>
+      <stop offset="1" stop-color="#2AB8A9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer plate (white) -->
+  <path fill="#FFFFFF" d="M54,6 A48,48 0 1,1 53.999,6Z"/>
+
+  <!-- Inner rim (teal) -->
+  <path fill="#1F8F87" d="M54,22 A32,32 0 1,1 53.999,22Z"/>
+
+  <!-- Plate top highlight -->
+  <path fill="#44FFFFFF" d="M28,16 C40,8 68,8 80,16 C74,12 60,10 54,10 C48,10 34,12 28,16 Z"/>
+
+  <!-- Soft shadow under fork -->
+  <path fill="#22000000" d="M44,74 C48,78 60,78 64,74 C60,76 48,76 44,74 Z"/>
+
+  <!-- Fork handle -->
+  <path fill="#FFFFFF" d="M45,36 L63,36 L63,74 L45,74 Z"/>
+  <path fill="#33FFFFFF" d="M46,38 L50,38 L50,72 L46,72 Z"/>
+
+  <!-- Fork prongs -->
+  <path fill="#FFFFFF" d="M46,24 L53,24 L53,36 L46,36 Z"/>
+  <path fill="#FFFFFF" d="M55,24 L62,24 L62,36 L55,36 Z"/>
+  <path fill="#FFFFFF" d="M64,24 L69,24 L69,36 L64,36 Z"/>
+
+</svg>
